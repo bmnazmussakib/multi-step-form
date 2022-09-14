@@ -1,0 +1,122 @@
+::placeholder {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 17px !important;
+    color: #9a9a9a !important; /* Firefox */
+  }
+  
+  .second-form-input {
+    background: #ffffff;
+    border: 1px solid #e1e4ea;
+    border-radius: 5px !important;
+    padding: 8px 20px !important;
+  }
+  
+  .second-form-input:focus {
+    box-shadow: none;
+  }
+  
+  .submit-btn {
+    margin-left: 12px;
+  }
+  
+  .back-btn {
+    background: #dce1e8 !important;
+    border-radius: 10px !important;
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 17px !important;
+    color: #131313 !important;
+    padding: 12px 44px !important;
+  }
+  
+  .back-btn:hover {
+    background: #dce1e8 !important;
+  }
+  
+  .back-btn:active {
+    background: #dce1e8 !important;
+    border: 1px solid #dce1e8 !important;
+  }
+  
+  @media (min-width: 320px) {
+    ::placeholder {
+      font-weight: 400 !important;
+      font-size: 12px !important;
+      line-height: 15px !important;
+    }
+  
+    .second-form-input {
+      border-radius: 5px !important;
+      padding: 5px 15px !important;
+    }
+  
+    .submit-btn {
+      padding: 8px 20px !important;
+      border-radius: 8px !important;
+      font-size: 12px !important;
+    }
+  
+    .back-btn {
+      padding: 8px 20px !important;
+      border-radius: 8px !important;
+      font-size: 12px !important;
+    }
+  }
+  
+  @media (min-width: 576px) {
+    ::placeholder {
+      font-weight: 400 !important;
+      font-size: 12px !important;
+      line-height: 17px !important;
+    }
+  
+    .second-form-input {
+      border-radius: 5px !important;
+      padding: 7px 15px !important;
+    }
+  
+    .submit-btn {
+      padding: 10px 30px !important;
+      border-radius: 8px !important;
+      font-size: 12px !important;
+    }
+  
+    .back-btn {
+      padding: 10px 30px !important;
+      border-radius: 8px !important;
+      font-size: 12px !important;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    ::placeholder {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400 !important;
+      font-size: 14px !important;
+      line-height: 17px !important;
+      color: #9a9a9a !important; /* Firefox */
+    }
+  
+    .second-form-input {
+      background: #ffffff;
+      border: 1px solid #e1e4ea;
+      border-radius: 5px !important;
+      padding: 8px 20px !important;
+    }
+  }
+  
+  @media (min-width: 992px) {
+  }
+  
+  @media (min-width: 1200px) {
+  }
+  
+  @media (min-width: 1400px) {
+  }
+  
